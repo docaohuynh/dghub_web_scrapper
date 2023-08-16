@@ -1,4 +1,4 @@
-name: dghub_web_scapper
+name: dghub_web_scrapper
 description: A new Flutter package project.
 version: 0.0.1
 homepage:
@@ -15,7 +15,7 @@ dependencies:
   http: ^1.1.0
 
 dependency_overrides:
-  dghub_web_scapper:
+  dghub_web_scrapper:
     path: ../
 
 dev_dependencies:

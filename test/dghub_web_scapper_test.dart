@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:dghub_web_scapper/dghub_web_scapper.dart';
+import 'package:dghub_web_scrapper/dghub_web_scrapper.dart';
 
 void main() {
   test('adds one to input values', () {

@@ -1,4 +1,4 @@
-library dghub_web_scapper;
+library dghub_web_scrapper;
 
 import 'dart:async';
 
@@ -7,7 +7,7 @@ import 'package:html/parser.dart';
 import 'package:http/http.dart' as http;
 import 'package:html/dom.dart' as dom;
 
-class DGHubWebScapper {
+class DGHubWebScrapper {
   static String windowAgent =
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36";
 

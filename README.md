@@ -6,7 +6,7 @@
 
 <a href="https://www.paypal.me/dghubfounder" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 37px !important;width: 170px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-[![Pub](https://img.shields.io/pub/v/font_awesome_flutter.svg)](https://pub.dartlang.org/packages/dghub_web_scapper)
+[![Pub](https://img.shields.io/pub/v/font_awesome_flutter.svg)](https://pub.dartlang.org/packages/dghub_web_scrapper)
 
 ## What is Web Scraping
 
@@ -22,13 +22,13 @@ In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
 ```yaml
 dependencies:
-  dghub_web_scapper: <latest_version>
+  dghub_web_scrapper: <latest_version>
 ```
 
 ## Import package
 
 ```dart
-import 'package:dghub_web_scapper/dghub_web_scapper.dart';
+import 'package:dghub_web_scrapper/dghub_web_scrapper.dart';
 ```
 
 ## Example - Normal
@@ -56,7 +56,7 @@ DGHubWebScrapper.getHtmlFullLoaded(
 
 ## Importants Methods and propriets
 
-Table by antonio-nicolau
+- Table by antonio-nicolau
 
 | Methods                | Mean                                                          |
 | ---------------------- | ------------------------------------------------------------- |
@@ -70,4 +70,4 @@ Table by antonio-nicolau
 | src                    | Return src atribute from a tag returned                       |
 | href                   | Return href atribute from a tag returned                      |
 
-Package created by Min Thant Htet
+- Package created by Min Thant Htet
