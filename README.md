@@ -34,7 +34,7 @@ import 'package:dghub_web_scrapper/dghub_web_scrapper.dart';
 ## Example - Normal
 
 ```dart
-DGHubWebScrapper.getHtml('https://cv.dghub.in/').then((html){
+DGHubWebScrapper.get('https://cv.dghub.in/').then((html){
 
     }).onError((error, stackTrace) {
 
@@ -44,10 +44,7 @@ DGHubWebScrapper.getHtml('https://cv.dghub.in/').then((html){
 ## Example - Support JavaScript
 
 ```dart
-DGHubWebScrapper.getHtmlFullLoaded(
-    'https://cv.dghub.in/',
-
-    ).then((html){
+DGHubWebScrapper.getFullLoaded('https://cv.dghub.in/').then((html){
 
     }).onError((error, stackTrace) {
 
@@ -58,16 +55,16 @@ DGHubWebScrapper.getHtmlFullLoaded(
 
 - Table by antonio-nicolau
 
-| Methods                | Mean                                                          |
-| ---------------------- | ------------------------------------------------------------- |
-| title                  | Return the page title                                         |
-| getElementById         | Return a single element searching for ID on the page          |
-| getElementsByClassName | Return a list of elements according class passed as parameter |
-| getElementsByTagName   | Return a list of elements according tag passed as parameter   |
-| querySelector          | Return single element passing a list of selector              |
-| querySelectorAll       | Return a list of elements passing a list of selector          |
-| text                   | Return text atribute from a tag returned                      |
-| src                    | Return src atribute from a tag returned                       |
-| href                   | Return href atribute from a tag returned                      |
+| Methods                     | Mean                                                          |
+| --------------------------- | ------------------------------------------------------------- |
+| html.title                  | Return the page title                                         |
+| html.getElementById         | Return a single element searching for ID on the page          |
+| html.getElementsByClassName | Return a list of elements according class passed as parameter |
+| html.getElementsByTagName   | Return a list of elements according tag passed as parameter   |
+| html.querySelector          | Return single element passing a list of selector              |
+| html.querySelectorAll       | Return a list of elements passing a list of selector          |
+| text                        | Return text atribute from a tag returned                      |
+| src                         | Return src atribute from a tag returned                       |
+| href                        | Return href atribute from a tag returned                      |
 
 - Package created by Min Thant Htet

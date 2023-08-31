@@ -14,10 +14,6 @@ dependencies:
   html: ^0.15.4
   http: ^1.1.0
 
-dependency_overrides:
-  dghub_web_scrapper:
-    path: ../
-
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -11,7 +11,7 @@ class DGHubWebScrapper {
   static String windowAgent =
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36";
 
-  static Future<dom.Document?> getHtml(String url,
+  static Future<dom.Document?> get(String url,
       {Map<String, String>? header}) async {
     try {
       final uri = Uri.parse(url);
@@ -24,7 +24,7 @@ class DGHubWebScrapper {
     }
   }
 
-  static Future<dom.Document?> getHtmlFullLoaded(String url,
+  static Future<dom.Document?> getFullLoaded(String url,
       {Map<String, String>? header,
       Function(InAppWebViewController, Uri?)? onLoaded,
       Function(InAppWebViewController, DownloadStartRequest)?
@@ -64,7 +64,9 @@ class DGHubWebScrapper {
       )
         ..run()
         ..dispose();
-    } catch (e) {}
+    } catch (e) {
+      print(e);
+    }
     return c.future;
   }
 }
